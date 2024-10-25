@@ -13,8 +13,9 @@ class Knight:
 
     def add_armours(self, armours_list: list) -> None:
         for item in armours_list:
-            self.equipment["armour"].append(item["part"])
-            self.protection += item["protection"]
+            if "part" in item and item["part"]:
+                self.equipment["armour"].append(item["part"])
+                self.protection += item["protection"]
 
     def add_potion(self, potion: dict) -> None:
         self.equipment["potion"] = potion["name"]
@@ -31,6 +32,8 @@ class Knight:
         self.power += weapon["power"]
 
     def attack(self, opponent: Knight) -> None:
-        opponent.hp -= self.power - opponent.protection
+
+        if self.hp > 0:
+            opponent.hp -= max(0, self.power - opponent.protection)
         if opponent.hp <= 0:
             opponent.hp = 0

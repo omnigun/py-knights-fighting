@@ -6,7 +6,7 @@ KNIGHTS = {
         "armour": [],
         "weapon": {
             "name": "Metal Sword",
-            "power": 50,
+            "power": 50
         },
         "potion": None,
     },
@@ -30,7 +30,7 @@ KNIGHTS = {
         ],
         "weapon": {
             "name": "Two-handed Sword",
-            "power": 55,
+            "power": 55
         },
         "potion": None,
     },
@@ -50,14 +50,14 @@ KNIGHTS = {
         ],
         "weapon": {
             "name": "Poisoned Sword",
-            "power": 60,
+            "power": 60
         },
         "potion": {
             "name": "Berserk",
             "effect": {
                 "power": +15,
                 "hp": -5,
-                "protection": +10,
+                "protection": +10
             }
         }
     },
