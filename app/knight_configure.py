@@ -17,15 +17,15 @@ KNIGHTS = {
         "armour": [
             {
                 "part": "helmet",
-                "protection": 15,
+                "protection": 15
             },
             {
                 "part": "breastplate",
-                "protection": 20,
+                "protection": 20
             },
             {
                 "part": "boots",
-                "protection": 10,
+                "protection": 10
             }
         ],
         "weapon": {
@@ -41,11 +41,11 @@ KNIGHTS = {
         "armour": [
             {
                 "part": "breastplate",
-                "protection": 15,
+                "protection": 15
             },
             {
                 "part": "boots",
-                "protection": 10,
+                "protection": 10
             }
         ],
         "weapon": {
@@ -68,7 +68,7 @@ KNIGHTS = {
         "armour": [
             {
                 "part": "breastplate",
-                "protection": 25,
+                "protection": 25
             }
         ],
         "weapon": {
