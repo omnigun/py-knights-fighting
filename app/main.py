@@ -26,7 +26,7 @@ def battle(knights_config: dict) -> dict:
         if "potion" in config and isinstance(config["potion"], dict):
             knights.add_potion(config["potion"])
 
-        if "weapon" in config and isinstance(config["weapon"], dict):
+        if "weapon" in config:
             knights.add_weapon(config["weapon"])
 
     # -------------------------------------------------------------------------------

@@ -79,7 +79,7 @@ KNIGHTS = {
             "name": "Blessing",
             "effect": {
                 "hp": +10,
-                "power": +5,
+                "power": +5
             }
         }
     }
